@@ -1,0 +1,9 @@
+<div class="photo">
+    <h2>{{photo.title}}</h2>
+<img [src]="photo.img" [alt]="photo.title">
+ <p>{{photo.description}}</p>
+ <p>{{photo.createAt|date }}</p>
+ <p><button (click)="onlike()">{{textbutton}}</button>
+    {{photo.like}}
+</p>
+</div>
