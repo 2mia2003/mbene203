@@ -1,0 +1,49 @@
+body{
+    width: 100%;
+    background-color: beige;
+    align-items: center;
+     display: flex;
+    justify-content: center;
+
+}
+fieldset{
+    width: 250px;
+    height: 450px;
+    border: solid;
+    border-radius: 1.2em;
+    background-color: white;
+    position: relative;
+    right: 150px;
+    margin-top: 70px
+}
+h1{
+   
+    color: rgb(165, 144, 42);
+    margin-top: -450px;
+    position: relative;
+    left: 90px;
+
+}
+label{
+font-weight: bold;
+}
+input[type="text"],
+input[type="date"],
+input[type="number"],
+select{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid ;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: beige;
+}
+input[type="submit"]{
+    justify-content: center;
+    color: white;
+    background-color: chocolate;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}

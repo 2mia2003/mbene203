@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index2.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <img src="/852619.jpg" alt="SAFARI2" >
+    </header>
+    <nav>
+        <ul>
+            <li><a href="pages/form-invitation.php"> Rappel</a></li>
+            <li><a href="Rappel.php"> Form-invitation</a></li>
+            <li><a href="pages/formulair de facturation.php">Formulaire</a></li>
+        </ul>
+    </nav>
+    <div class="Arise">
+            <?php
+        if(isset ($_GET['page'])) {
+            $page - $_GET['page'] .".php";
+            if (file_exists($page)) {
+                 include(Spage);
+            }
+            else {
+                echo "<h3>Page introuvable !</h3>";
+            }
+            
+        }
+        
+             else {
+                echo "‹h3›Bienvenue ! Sélectionnez une page.</h3>";
+             }
+    
+    ?>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <footer>
+        <p aligne="center"> @MbeneForever</p>
+    </footer>
+</body>
+
+</html>

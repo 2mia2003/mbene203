@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="page.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>FICHE DE PAIE</h1>
+    <form action="bulletin.php" method="POST">
+         <fieldset>
+        <label for="nom">Nom:</label>
+        <input type="text" id="nom" name="nom" required><br><br>
+
+        <label for="prenom">Prénom:</label>
+        <input type="text" id="prenom" name="prenom" required><br><br>
+
+        <label for="naissance">Date de naissance:</label>
+        <input type="date" id="naissance" name="naissance" required><br><br>
+
+        <label for="sex">SEX:</label>
+         <select name="sex" id="sex">
+            <option value="1">F</option>
+            <option value="2">M</option>
+         </select required><br><br>
+
+         <label for="id">FONCTION:</label>
+        <input type="text" id="fction" name="fction" required><br><br>
+
+        <label for="id">SalaireBrute:</label>
+        <input type="text" id="SB" name="SB" required><br><br>
+
+        <input type="submit" value="Valider">
+    </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family:Arial;
+    font-size: 1.2em;
+    background-color: rgb(112, 102, 75);
+}
+fieldset {
+    background-color: white;
+    padding:20px ;
+    width: 350px;
+    border-radius: 1.6em;
+
+
+}
+input{
+    width: 70%;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 1.6em;
+    background-color: rgb(5, 48, 48);
+
+}

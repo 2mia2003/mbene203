@@ -1,0 +1,30 @@
+ body{
+   background-color: rgb(118, 136, 136);
+   display: flex;
+   justify-content: space-between;
+  
+ }
+ .my{
+   float: right;
+   border: 1px solid #ccc;
+   margin: 30px;
+   padding: 20px;
+   height: 200px;
+   border-radius:1em;
+   clear: right;
+   font-size:1.2em;
+   margin-right: 60px;
+
+   
+ }
+ fieldset{
+   float: left;
+   border-radius: 2em;
+   margin:10px;
+
+
+ }
+ input{
+   width:100%;
+   border-radius:1.6em;
+ }
